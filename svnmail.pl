@@ -9,7 +9,7 @@ use SvnDiffMail;
 sub usage
 {
   print <<"USAGE";
-Usage: SvnDiffMail -d PATH
+Usage: svnmail -d PATH
   Creates a commit report
   Valid options:
     -d         PATH        : specify repository path PATH (required)
