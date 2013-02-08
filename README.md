@@ -18,7 +18,7 @@ SVNLOOK="/usr/bin/svnlook"
 
 curl "$REDMINE/fetch_changesets?key=$REDMINE_KEY&id=$PROJECT" &
 
-perl /home/kita/svndiffmail/svnmail.pl -d $REPOS -rev $REV -to $MAILTO -sendmail /usr/sbin/sendmail -redmine $REDMINE/projects/$PROJECT -name $NAME -svnlook $SVNLOOK
+perl /path/to/svnmail.pl -d $REPOS -rev $REV -to $MAILTO -sendmail /usr/sbin/sendmail -redmine $REDMINE/projects/$PROJECT -name $NAME -svnlook $SVNLOOK
 ```
 
 Project Homepage https://github.com/nazoking/svndiffmail
