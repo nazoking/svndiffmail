@@ -2,9 +2,9 @@ SvnDiffMail
 ======================
 Creates a commit report
 
-set your repositorys hook script
+set your repositorys hook script "hooks/post-commit"
 
-```bash:hooks/post-commit
+```bash
 #/bin/bash
 REPOS="$1"
 REV="$2"
